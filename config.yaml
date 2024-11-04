@@ -1,0 +1,3 @@
+project_id: q-gcp-01778-ford-tm-23-12
+dataset: astronomer_poc
+sql_path: /home/airflow/gcs/dags/demo
