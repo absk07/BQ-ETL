@@ -1,4 +1,4 @@
-CREATE OR REPLACE TABLE `q-gcp-01778-ford-tm-23-12.astronomer_poc.receipts_transformed` AS
+CREATE OR REPLACE TABLE `deft-epoch-438812-b9.astronomer_poc.receipts_transformed` AS
 SELECT
   block_hash ,
   block_timestamp ,
@@ -16,4 +16,4 @@ SELECT
     WHEN status = 0 THEN FALSE
     ELSE NULL  -- Handle cases where the value isn't 1 or 0
   END AS status
-FROM `q-gcp-01778-ford-tm-23-12.astronomer_poc.stg_receipts`
+FROM `deft-epoch-438812-b9.astronomer_poc.stg_receipts`
